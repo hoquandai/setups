@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  setup:
+    tty: true
+    stdin_open: true
+    container_name: setup
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/main
