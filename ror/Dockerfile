@@ -1,4 +1,4 @@
-FROM ruby:3.3.3-bullseye
+FROM ruby:3.3.4-bullseye
 
 RUN gem install rails -v 7.1.3.4
 
